@@ -4,10 +4,30 @@ header{
 .headericon{
     text-align: center;
 }
+
+div.scrollmenu {
+    text-align: center;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: red;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+    border-radius: 10%;
+  }
+
 body{
     background-color: black;    
 }
 
 *{
-    color: #00FF41;
+    color: red;
 }
